@@ -17,13 +17,9 @@ main{
     height: calc(100vh - 80px);
 }
 
-#sidebar{
-    background-image: url(../img/sidebar-bg.png);
-    background-color: darkblue;
-    flex-basis: 50px;
-}
 
-#main-contents{
+
+.main-contents{
     background-color: white;
     flex-grow: 1;
 }
@@ -37,4 +33,20 @@ header .container-fluid{
 }
 
 /* sidebar */
+
+.sidebar{
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #030341;
+    flex-basis: 50px;
+}
+
+/* contenuti principali */
+
+.main-header{
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
 
