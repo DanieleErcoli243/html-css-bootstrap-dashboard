@@ -8,7 +8,7 @@
 
 /* elementi di layout */
 
-header{
+.primary-header{
     height: 80px;
     background-color: rgb(238, 230, 230);
 }
@@ -22,6 +22,12 @@ main{
 .main-contents{
     background-color: white;
     flex-grow: 1;
+}
+
+/* utili */
+
+.mt-20{
+    margin-top: 20px;
 }
 
 /* header */
@@ -40,9 +46,31 @@ header .container-fluid{
     flex-basis: 50px;
 }
 
+.page-icons,
+.fa-gear{
+    list-style-type: none;
+    color: white;
+    border: 0;
+    font-size: 18px;
+    padding-left: 0;
+}
+
+button{
+    background-color: transparent;
+}
+
+i{
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /* contenuti principali */
 
-.main-header{
+.m-header{
     position: sticky;
     top: 0;
     right: 0;
