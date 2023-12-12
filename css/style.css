@@ -35,7 +35,21 @@ main{
 header .container-fluid{
     background-color: white;
     height: 60px;
-    margin-top: 10px;
+}
+
+img.d-lg-none{
+    max-width: 45px;
+}
+
+input{
+    width: 335px;
+    height: 40px;
+}
+
+
+
+.fa-bell{
+    color: orange;
 }
 
 /* sidebar */
@@ -53,6 +67,7 @@ header .container-fluid{
     border: 0;
     font-size: 18px;
     padding-left: 0;
+    line-height: 2;
 }
 
 button{
@@ -70,11 +85,23 @@ a{
 
 /* contenuti principali */
 
+.main-contents{
+    overflow: auto;
+}
+
 .m-header{
     position: sticky;
     top: 0;
     right: 0;
     left: 0;
+}
+
+.c-avatar{
+    max-width: 50px;
+}
+
+th{
+    line-height: 67px;
 }
 
 
