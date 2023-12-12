@@ -3,4 +3,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid;
 }
+
+/* elementi di layout */
+
+header{
+    height: 80px;
+    background-color: rgb(238, 230, 230);
+}
+
+main{
+    height: calc(100vh - 80px);
+}
+
+#sidebar{
+    background-image: url(../img/sidebar-bg.png);
+    background-color: darkblue;
+    flex-basis: 50px;
+}
+
+#main-contents{
+    background-color: white;
+    flex-grow: 1;
+}
+
+/* header */
+
+header .container-fluid{
+    background-color: white;
+    height: 60px;
+    margin-top: 10px;
+}
+
+/* sidebar */
+
