@@ -13,19 +13,28 @@
     </head>
 
     <body>
-        <header class="primary-header">
-            <div class="container-fluid d-flex justify-content-center align-items-center">
-                <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-8"></div>
-                    <div class="col d-none"></div>
-                    <div class="col-2"></div>
+        <header class="primary-header d-flex justify-content-center align-items-center">
+            <div class="container-fluid">
+                <div class="row justify-content-between">
+                    <div class="col-2">
+                        <img class="d-lg-none" src="img/mobile-logo.png" alt="logo di boolean">
+                        <img class="d-none d-lg-block" src="img/logo.svg" alt="logo di boolean esteso">
+                    </div>
+                    <div class="col-8 d-flex justify-content-between align-items-center">
+                        <input type="text" placeholder="Prova a cercare: Lezioni di Laravel">
+                    </div>
+                    <div class="col-2 text-end d-flex justify-content-end align-items-center gap-lg-3">
+                        <i class="fa-solid fa-list-ul d-none d-lg-inline"></i>
+                        <i class="fa-solid fa-circle-question d-none d-lg-inline"></i>
+                        <i class="fa-solid fa-ellipsis-vertical d-none d-lg-inline"></i>
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
                 </div>
             </div>
         </header>
         <main class="d-flex">
             <div class="sidebar text-center">
-                <div class="row align-items-between">
+                <div class="row">
                     <div class="col">
                         <ul class="page-icons mt-20">
                             <li>
@@ -59,15 +68,150 @@
             <div class="main-contents">
                 <header class="m-header container-fluid bg-info">
                     <div class="row flex-column flex-md-row">
-                        <div class="col"></div>
-                        <div class="col"></div>
-                        <div class="col"></div>
+                        <div class="col">
+                            <h4>Nuovo Studente</h4>
+                            <span>
+                                <i class="fa-regular fa-square-plus"></i>
+                            </span>
+                        </div>
+                        <div class="col">
+                            <h3>Boolean</h3>
+                            <span class="badge rounded-pill text-bg-primary">Piano-blaze</span>
+                            <span class="badge rounded-pill text-bg-primary">3 app</span>
+                            <i class="fa-solid fa-angles-right"></i>
+                            <span class="badge rounded-pill text-bg-primary d-lg-none">+</span>
+                            <span class="badge rounded-pill text-bg-primary d-none d-lg-inline">Boolean mobile app</span>
+                            <span class="badge rounded-pill text-bg-primary d-none d-lg-inline">Boolean web app</span>
+                            <span class="badge rounded-pill text-bg-primary d-none d-lg-inline">Boolean blog app</span>
+                        </div>
+                        <div class="col">
+                            <h4>Studenti online negli ultimi 30 minuti</h4>
+                            <h4>125</h4>
+                        </div>
                     </div>
                 </header>
                 <section class="container">
                     <div class="row">
-                        <div class="col-12 col-lg-8"></div>
-                        <div class="col-12 col-leg-4"></div>
+                        <div class="col-12 col-lg-8">
+                            <table class="table">
+                                <caption>Prossime classi</caption>
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Nome</th>
+                                    <th scope="col" class="d-none d-md-block">Data inizio</th>
+                                    <th scope="col" class="d-none d-md-block">ROI</th>
+                                    <th scope="col">Stato</th>
+                                    <th scope="col">Azioni</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">
+                                        <img class="c-avatar" src="img/class-avatar.jpg" alt="simbolo della classe">
+                                        <span>Classe 75</span>
+                                    </th>
+                                    <td class="d-none d-md-block">15 Feb 2021</td>
+                                    <td class="d-none d-md-block">20%</td>
+                                    <td class="badge bg-success text-light">Done</td>
+                                    <td>
+                                        <i class="fa-solid fa-pencil"></i>
+                                        <i class="fa-solid fa-trash"></i>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">
+                                        <img class="c-avatar" src="img/class-avatar.jpg" alt="simbolo della classe">
+                                        <span>Classe 76</span>
+                                    </th>
+                                    <td class="d-none d-md-block">16 Feb 2021</td>
+                                    <td class="d-none d-md-block">20%</td>
+                                    <td class="badge bg-success text-light">Done</td>
+                                    <td>
+                                        <i class="fa-solid fa-pencil"></i>
+                                        <i class="fa-solid fa-trash"></i>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">
+                                        <img class="c-avatar" src="img/class-avatar.jpg" alt="simbolo della classe">
+                                        <span>Classe 77</span>
+                                    </th>
+                                    <td class="d-none d-md-block">17 Feb 2021</td>
+                                    <td class="d-none d-md-block">20%</td>
+                                    <td class="badge bg-wrning text-light">process</td>
+                                    <td>
+                                        <i class="fa-solid fa-pencil"></i>
+                                        <i class="fa-solid fa-trash"></i>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">
+                                        <img class="c-avatar" src="img/class-avatar.jpg" alt="simbolo della classe">
+                                        <span>Classe 78</span>
+                                    </th>
+                                    <td class="d-none d-md-block">18 Feb 2021</td>
+                                    <td class="d-none d-md-block">20%</td>
+                                    <td class="badge bg-success text-light">Done</td>
+                                    <td>
+                                        <i class="fa-solid fa-pencil"></i>
+                                        <i class="fa-solid fa-trash"></i>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">
+                                        <img class="c-avatar" src="img/class-avatar.jpg" alt="simbolo della classe">
+                                        <span>Classe 79</span>
+                                    </th>
+                                    <td class="d-none d-md-block">19 Feb 2021</td>
+                                    <td class="d-none d-md-block">20%</td>
+                                    <td class="badge bg-warning text-light">failed</td>
+                                    <td>
+                                        <i class="fa-solid fa-pencil"></i>
+                                        <i class="fa-solid fa-trash"></i>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">
+                                        <img class="c-avatar" src="img/class-avatar.jpg" alt="simbolo della classe">
+                                        <span>Classe 80</span>
+                                    </th>
+                                    <td class="d-none d-md-block">20 Feb 2021</td>
+                                    <td class="d-none d-md-block">20%</td>
+                                    <td class="badge bg-success text-light">Done</td>
+                                    <td>
+                                        <i class="fa-solid fa-pencil"></i>
+                                        <i class="fa-solid fa-trash"></i>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">
+                                        <img class="c-avatar" src="img/class-avatar.jpg" alt="simbolo della classe">
+                                        <span>Classe 81</span>
+                                    </th>
+                                    <td class="d-none d-md-block">21 Feb 2021</td>
+                                    <td class="d-none d-md-block">20%</td>
+                                    <td class="badge bg-warning text-light">failed</td>
+                                    <td>
+                                        <i class="fa-solid fa-pencil"></i>
+                                        <i class="fa-solid fa-trash"></i>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">
+                                        <img class="c-avatar" src="img/class-avatar.jpg" alt="simbolo della classe">
+                                        <span>Classe 82</span>
+                                    </th>
+                                    <td class="d-none d-md-block">22 Feb 2021</td>
+                                    <td class="d-none d-md-block">20%</td>
+                                    <td class="badge bg-success text-light">Done</td>
+                                    <td>
+                                        <i class="fa-solid fa-pencil"></i>
+                                        <i class="fa-solid fa-trash"></i>
+                                    </td>
+                                  </tr>
+                                </tbody>  
+                            </table>
+                        </div>
                     </div>
                 </section>
             </div>
