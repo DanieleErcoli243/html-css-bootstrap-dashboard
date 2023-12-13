@@ -37,12 +37,19 @@ main{
     border-radius: 10px;
 }
 
+.mb-20{
+    margin-bottom: 20px;
+}
+
 /* header */
 
 header .container-fluid{
     background-color: white;
     height: 60px;
+    
 }
+
+
 
 img.d-lg-none{
     max-width: 45px;
@@ -50,7 +57,7 @@ img.d-lg-none{
 
 input.form-control{
     width: 335px;
-    height: 40px;
+    height: 45px;
 }
 
 
@@ -88,7 +95,10 @@ button{
 
 i{
     border: 0;
+    
 }
+
+
 
 a{
     text-decoration: none;
@@ -102,18 +112,8 @@ a{
     background-color: rgba(240, 230, 230, 0.702);
 }
 
-.m-header{
-    
-}
-
-caption{
-    padding-top: 10px;
-    padding-left: 5px;
-    padding-bottom: 20px;
-    border: 1px solid lightgray;
-    font-size: 24px;
-    color: black;
-    background-color: lightgray;
+.cards.container-fluid{
+    background-color: transparent;
 }
 
 .table{
@@ -139,6 +139,22 @@ td.badge{
     padding: 5px 10px;
     vertical-align: baseline;
 }
+
+div.card{
+    margin-bottom: 10px;
+}
+
+li img{
+    max-width: 100%;
+}
+
+/* offcanvas */
+
+.form-text{
+    width: 50%;
+}
+
+/* media query */
 
 @media screen and (min-width: 992px){
     .sidebar{
