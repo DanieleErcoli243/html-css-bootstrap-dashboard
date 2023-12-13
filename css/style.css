@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid;
 }
 
 /* elementi di layout */
@@ -11,6 +10,8 @@
 .primary-header{
     height: 80px;
     background-color: rgb(238, 230, 230);
+    display: flex;
+    align-items: center;
 }
 
 main{
@@ -45,12 +46,9 @@ img.d-lg-none{
     max-width: 45px;
 }
 
-input{
+input.form-control{
     width: 335px;
     height: 40px;
-    background-image: url(../img/magnifying-glass-solid.svg);
-    background-repeat: no-repeat;
-    background-position: left;
 }
 
 
@@ -65,6 +63,7 @@ input{
     background-image: url(../img/sidebar-bg.png);
     background-color: #030341;
     flex-basis: 50px;
+    flex-shrink: 0;
 }
 
 span.d-none{
@@ -102,10 +101,7 @@ a{
 }
 
 .m-header{
-    position: sticky;
-    top: 0;
-    right: 0;
-    left: 0;
+    
 }
 
 caption{
