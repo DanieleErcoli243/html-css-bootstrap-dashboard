@@ -84,9 +84,7 @@ input.form-control,
     justify-content: space-between;
 }
 
-span.d-none{
-    margin-left: 5px;
-}
+
 
 .page-icons{
     text-align: center;
@@ -94,6 +92,7 @@ span.d-none{
     flex-direction: column;
     align-items: baseline;
     justify-content: center;
+    gap: 10px;
 }
 
 .page-icons,
@@ -179,4 +178,5 @@ li img{
         flex-basis: 145px;
         text-align: left;
     }
+
 }
