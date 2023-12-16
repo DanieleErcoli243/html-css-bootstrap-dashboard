@@ -21,10 +21,10 @@
               <img class="d-none d-lg-block" src="img/logo.svg" alt="logo di boolean esteso">
             </div>
             <div class="col-8">
-                <form>
+                <form class="flex-grow-1">
                   <div class="input-group">
-                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-                    <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                    <span class="input-group-text border-end-0" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" class="form-control border-start-0" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
                   </div>
                 </form>
             </div>
@@ -57,7 +57,7 @@
               <li>
                 <a href="#" class="d-flex align-items-center">
                   <i class="fa-solid fa-chart-simple"></i>
-                  <span class="d-none d-lg-inline ms-3">Stats</span>
+                  <span class="d-none d-lg-inline ms-4">Stats</span>
                 </a>
               </li>
               <li>
@@ -69,16 +69,20 @@
             </ul>
           </nav>
           <nav class="col text-center d-flex flex-column justify-content-end">
-              <a href="#">
-                <i class="fa-solid fa-gear"></i>
-                <span class="d-none d-lg-inline text-light">Admin</span>
-              </a>
+            <ul class="page-icons px-3 py-4">
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-gear"></i>
+                  <span class="d-none ms-3 d-lg-inline text-light">Admin</span>
+                </a>
+              </li>
+            </ul>  
           </nav>
         </nav>
            
         <div class="main-contents">
           <header class="m-header container-fluid bg-info">
-            <div class="row flex-column flex-md-row">
+            <div class="d-flex flex-column flex-md-row">
               <div class="col">
                 <h4>Nuovo Studente</h4>
                 <span>
@@ -86,7 +90,7 @@
                     <i class="fa-regular fa-square-plus"></i>
                   </button>
                 </span>
-                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                   <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -129,7 +133,7 @@
                 <h3>Boolean</h3>
                 <span class="badge rounded-pill text-bg-primary">Piano-blaze</span>
                 <span class="badge rounded-pill text-bg-primary">3 app</span>
-                <i class="fa-solid fa-angles-right"></i>
+                <i class="fa-solid fa-angles-right text-light"></i>
                 <span class="badge rounded-pill text-bg-primary d-lg-none">+</span>
                 <span class="badge rounded-pill text-bg-primary d-none d-lg-inline">Boolean mobile app</span>
                 <span class="badge rounded-pill text-bg-primary d-none d-lg-inline">Boolean web app</span>
