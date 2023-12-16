@@ -41,6 +41,8 @@ main{
     margin-bottom: 20px;
 }
 
+
+
 /* header */
 
 header .container-fluid{
@@ -58,13 +60,10 @@ img.d-lg-none{
 input.form-control,
 .input-group-text{
     height: 45px;
-    border: 0;
     background-color: lightgray;
 }
 
-.input-group{
-    width: 100%;
-}
+
 
 
 .fa-bell{
@@ -99,7 +98,6 @@ input.form-control,
 .fa-gear{
     list-style-type: none;
     color: white;
-    border: 0;
     font-size: 18px;
     line-height: 2;
 }
@@ -146,6 +144,8 @@ table i{
 
 .c-avatar{
     max-width: 40px;
+    height: 40 px;
+    border-radius: 50%;
 }
 
 tr{
@@ -176,7 +176,6 @@ li img{
 @media screen and (min-width: 992px){
     .sidebar{
         flex-basis: 145px;
-        text-align: left;
     }
 
 }
