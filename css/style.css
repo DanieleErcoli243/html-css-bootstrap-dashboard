@@ -55,13 +55,14 @@ img.d-lg-none{
     max-width: 45px;
 }
 
-input.form-control{
-    width: 100%;
+input.form-control,
+.input-group-text{
     height: 45px;
+    border: 0;
+    background-color: lightgray;
 }
 
 .input-group{
-    border: 0;
     width: 100%;
 }
 
@@ -77,10 +78,22 @@ input.form-control{
     background-color: #030341;
     flex-basis: 50px;
     flex-shrink: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 span.d-none{
     margin-left: 5px;
+}
+
+.page-icons{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
 }
 
 .page-icons,
@@ -89,7 +102,6 @@ span.d-none{
     color: white;
     border: 0;
     font-size: 18px;
-    padding-left: 0;
     line-height: 2;
 }
 
