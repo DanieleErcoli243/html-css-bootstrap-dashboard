@@ -46,7 +46,6 @@ h4{
 }
 
 
-
 /* header */
 
 header .container-fluid{
@@ -55,30 +54,43 @@ header .container-fluid{
     
 }
 
-
-
 img.d-lg-none{
     max-width: 45px;
 }
 
 input.form-control,
 .input-group-text{
-    height: 45px;
     background-color: lightgray;
 }
 
 .h-icons{
     display: flex;
-    gap: 10px;
     list-style-type: none;
-    border: 0;
     align-items: center;
     justify-content: center;
+    gap: 15px;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
+.right-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.h-icons button{
+    border: none;
+    padding: none;
+}
 
 .fa-bell{
     color: orange;
+}
+
+.btn-group .btn{
+    padding: 0;
 }
 
 /* sidebar */
@@ -139,6 +151,21 @@ a{
 }
 
 
+/* offcanvas */
+
+#offcanvasExample{
+    width: 100%;
+}
+
+.form-text{
+    width: 50%;
+}
+
+#select-state{
+    padding: 5px 10px;
+}
+
+/* tabella */
 
 .table{
     padding: 0.5rem 1.5rem;
@@ -175,17 +202,19 @@ li img{
     max-width: 100%;
 }
 
-/* offcanvas */
 
-.form-text{
-    width: 50%;
-}
+
+
 
 /* media query */
 
 @media screen and (min-width: 992px){
     .sidebar{
         flex-basis: 145px;
+    }
+
+    #offcanvasExample{
+        width: 800px;
     }
 
 }
