@@ -198,6 +198,13 @@ div.card{
     margin-bottom: 10px;
 }
 
+/* todo */
+
+.form-check-label{
+    font-size: 12px;
+    font-weight: 400;
+}
+
 li img{
     max-width: 100%;
 }
