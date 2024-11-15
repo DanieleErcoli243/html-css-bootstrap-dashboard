@@ -1,3 +1,15 @@
+Bootstrap Dashboard
+This was one of our three days projects. It's a responsive dashboard totally created by using Bootstrap, imported via cdn. It fits the main breakpoints according to the Bootstrap classes. It also has an offcanvas containing a form for the subscription of a new student, but it was not supposed to work. 
+The aim was to practice with the library, keeping in mind how to hide and show parts of the elements according to the breakpoint and to get used to a code that was already written, understanding which parts were more useful. I approached it mobile first. 
+Using components from Bootstrap gave me a little troubles, because the html validator kept pointing out some elements as not closed. I worked on them, but still the validator kept telling that they were open. It also took me a while to copy all the texts.
+
+
+
+
+
+
+
+
 Esercizio di oggi: Bootstrap Dashboard
 cartella/repo: html-css-bootstrap-dashboard
 Modalità di consegna e supporto
